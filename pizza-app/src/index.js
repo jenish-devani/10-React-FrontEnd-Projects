@@ -66,7 +66,7 @@ function Header() {
 function Menu() {
 
     return <div className='menu'>
-        <h2>Our Menu Pizza</h2>
+        <h2>Our Menu</h2>
         <ul className='pizzas'>
             {pizzaData.map((item) => (
                 <Pizza name={item.name}
