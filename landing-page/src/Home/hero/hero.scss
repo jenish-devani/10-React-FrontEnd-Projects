@@ -1,0 +1,51 @@
+.hero {
+  .heroContainer {
+    display: flex;
+    .leftcol {
+      width: 50%;
+      h1 {
+        margin-block: 35px;
+        font-size: 6rem;
+        line-height: 100px;
+        font-weight: 900;
+      }
+      p#sub {
+        font-size: 0.9rem;
+        margin-right: 250px;
+        letter-spacing: 1px;
+      }
+      button#primary {
+        margin-top: 22px;
+        background-color: #d01c28;
+        color: white;
+        padding: 12px 28px;
+        border: none;
+        font-weight: bold;
+        border-radius: 28px;
+      }
+      button#secondary {
+        margin-left: 14px;
+        background-color: white;
+        color: black;
+        padding: 12px 28px;
+        border: 0.5px solid black;
+        font-weight: bold;
+        border-radius: 28px;
+      }
+      p {
+        font-size: 0.75rem;
+        margin-top: 36px;
+      }
+      img {
+        width: 24px;
+        margin-left: 18px;
+      }
+    }
+    .rightcol {
+      width: 50%;
+      img {
+        margin-block: 48px;
+      }
+    }
+  }
+}

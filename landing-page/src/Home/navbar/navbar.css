@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+.navbar img {
+  width: 65px;
+}
+.navbar .navMenu {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .navMenu li {
+  list-style: none;
+  margin-inline: 32px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar button {
+  background-color: #d01c28;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  font-weight: bold;
+  border-radius: 28px;
+}/*# sourceMappingURL=navbar.css.map */
